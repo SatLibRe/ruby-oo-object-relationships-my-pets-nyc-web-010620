@@ -61,7 +61,7 @@ class Owner
     
     def sell_pets 
       pets = [dogs,cats]
-      binding.pry 
+      pets.flatten 
     end 
     
 end 
