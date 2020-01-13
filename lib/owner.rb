@@ -41,7 +41,7 @@ class Owner
       Cat.new(string_cat,self)
     end 
     
-     def dog(string_dog)
+     def buy_dog(string_dog)
       Dog.new(string_dog,self)
     end 
     
