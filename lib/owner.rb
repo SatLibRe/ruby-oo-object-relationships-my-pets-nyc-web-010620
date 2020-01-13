@@ -61,7 +61,10 @@ class Owner
     
     def sell_pets 
       pets = [dogs,cats]
-      pets.flatten 
+      pets.flatten.each do |pet|
+        pet.mood = "nervous"
+        pet.owner = nil 
+      end 
     end 
     
 end 
