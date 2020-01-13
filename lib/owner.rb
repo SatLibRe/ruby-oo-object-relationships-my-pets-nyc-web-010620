@@ -38,7 +38,7 @@ class Owner
     end 
     
     def buy_cat(string_cat)
-      
+      Cat.new()
     end 
     
 end 
