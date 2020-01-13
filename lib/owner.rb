@@ -67,4 +67,9 @@ class Owner
       end 
     end 
     
+    def list_pets
+      pets = [dogs,cats]
+      pets.flatten.each
+    end 
+    
 end 
