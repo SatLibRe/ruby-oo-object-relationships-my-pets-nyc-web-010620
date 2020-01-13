@@ -45,4 +45,10 @@ class Owner
       Dog.new(string_dog,self)
     end 
     
+    def walk_dogs 
+      dogs.each do |dog|
+        dog.mood = "happy"
+      end 
+    end 
+    
 end 
